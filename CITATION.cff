@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Если используете навык, процитируйте его."
+title: "Маршрутизатор методик"
+abstract: "Навык выбирает 3–5 методик решения задачи из каталога в 92 метода и пишет предидею на языке каждой школы до генерации готовых идей."
+type: software
+authors:
+  - family-names: "Adilbek uulu"
+    given-names: "Shumkarbek"
+repository-code: "https://github.com/sadmae/method-router"
+url: "https://github.com/sadmae/method-router"
+license: MIT
+version: "0.1.0"
+date-released: "2026-11-10"
+keywords:
+  - method selection
+  - TRIZ
+  - theory of constraints
+  - ideation
+  - public policy
