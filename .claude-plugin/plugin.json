@@ -1,0 +1,24 @@
+{
+  "name": "method-router",
+  "displayName": "Маршрутизатор методик",
+  "version": "0.1.0",
+  "description": "По описанию проблемы выбирает 3–5 методик из 92 (ТРИЗ, ТОС, Lean, SIT, JTBD, форсайт, госполитика) и пишет предидею на языке каждой, затем разворачивает выбранный метод до идей.",
+  "author": {
+    "name": "Shumkarbek Adilbek uulu",
+    "url": "https://github.com/sadmae"
+  },
+  "homepage": "https://github.com/sadmae/method-router",
+  "repository": "https://github.com/sadmae/method-router",
+  "license": "MIT",
+  "keywords": [
+    "method-selection",
+    "triz",
+    "theory-of-constraints",
+    "lean",
+    "jtbd",
+    "foresight",
+    "public-policy",
+    "problem-solving",
+    "ideation"
+  ]
+}

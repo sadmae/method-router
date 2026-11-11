@@ -1,0 +1,17 @@
+{
+  "name": "sadmae",
+  "description": "Навыки для выбора методик решения задач и генерации идей",
+  "owner": {
+    "name": "Shumkarbek Adilbek uulu",
+    "url": "https://github.com/sadmae"
+  },
+  "plugins": [
+    {
+      "name": "method-router",
+      "source": "./",
+      "description": "По описанию проблемы выбирает 3–5 методик из 92 и пишет предидею на языке каждой школы. Производство, процессы, продукты, госпланы.",
+      "category": "productivity",
+      "tags": ["triz", "theory-of-constraints", "lean", "jtbd", "public-policy", "ideation"]
+    }
+  ]
+}

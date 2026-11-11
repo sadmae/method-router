@@ -33,7 +33,26 @@ Method router for Claude: from a problem description it picks 3–5 thinking met
 
 ### Claude Code
 
-Склонируйте репозиторий в каталог навыков. На macOS и Linux:
+Репозиторий оформлен как плагин и маркетплейс. Внутри сессии Claude Code выполните две команды:
+
+```text
+/plugin marketplace add sadmae/method-router
+/plugin install method-router@sadmae
+```
+
+То же из терминала:
+
+```bash
+claude plugin marketplace add sadmae/method-router
+```
+
+```bash
+claude plugin install method-router@sadmae
+```
+
+В Claude Code 2.1.275 и новее хватает одной команды: `/plugin install method-router --marketplace sadmae/method-router`. Обновления приходят через `/plugin marketplace update sadmae`.
+
+Без плагина навык можно просто склонировать в каталог навыков. На macOS и Linux:
 
 ```bash
 git clone https://github.com/sadmae/method-router ~/.claude/skills/method-router
@@ -73,6 +92,7 @@ git clone https://github.com/sadmae/method-router "$env:USERPROFILE\.claude\skil
 | `references/methods.md` | 92 карточки. Файл собирается скриптом, вручную его не правят |
 | `references/triz.md` | 40 приёмов и 39 параметров |
 | `evals/evals.json` | 13 задач с ожидаемыми группами методов. Нужны при правке навыка |
+| `.claude-plugin/` | Манифесты плагина и маркетплейса для Claude Code, иконка |
 | `CITATION.cff` | Цитирование для кнопки Cite на GitHub |
 | `LICENSE` | MIT |
 
