@@ -93,7 +93,6 @@ git clone https://github.com/sadmae/method-router "$env:USERPROFILE\.claude\skil
 | `references/triz.md` | 40 приёмов и 39 параметров |
 | `evals/evals.json` | 13 задач с ожидаемыми группами методов. Нужны при правке навыка |
 | `.claude-plugin/` | Манифесты плагина и маркетплейса для Claude Code, иконка |
-| `CITATION.cff` | Цитирование для кнопки Cite на GitHub |
 | `LICENSE` | MIT |
 
 ## Проверка
@@ -104,7 +103,7 @@ git clone https://github.com/sadmae/method-router "$env:USERPROFILE\.claude\skil
 
 ## Как цитировать
 
-Нажмите «Cite this repository» на странице репозитория: данные берутся из `CITATION.cff`.
+Adilbek uulu, Shumkarbek. Маршрутизатор методик (method-router), версия 0.1.1, 2026. <https://github.com/sadmae/method-router>
 
 ## Лицензия
 
